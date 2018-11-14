@@ -16,12 +16,12 @@ public class main {
 			vGrades[i] = sc.nextInt();
 		}
 
-		int puroGrade = vCalculate(vGrades, vGrades.length - 1);
+		int purdyGrade = vCalculate(vGrades, vGrades.length - 1);
 
 		for (int i = 0; i < vGrades.length; i++) {
-			puroGrade = Math.max(puroGrade, vGrades[i]);
+			purdyGrade = Math.max(purdyGrade, vGrades[i]);
 		}
-		System.out.println("Your new grade is : " + puroGrade);
+		System.out.println("Your new grade is : " + purdyGrade);
 	}
 
 	static int vCalculate(int[] a, int i) {
